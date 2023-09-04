@@ -57,4 +57,64 @@ body {
 
 .rebel-follow i {
     margin-left: 10;
+    color: #ff42a5;
+}
+
+/* Hero Section Style */
+.rebel-hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    background-image: url('../assets/images/Group\ 14.png');
+    width: 50%;
+}
+
+.hero-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #0B0223;
+    line-height: 0px;
+}
+
+.hero-text h1 {
+    font-size: 95px;
+    font-weight: 800;
+    line-height: 0px;
+    color: #ff42a5;
+}
+
+.hero-text h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.hero-text i {
+    margin-right: 10px;
+    color: #ff42a5;
+}
+
+.signin-btn {
+    border-radius: 48px;
+    padding: 21px 40px;
+    background-color: #ff42a5;
+    color: white;
+}
+
+.rogue-btn {
+    border-radius: 48px;
+    padding: 21px 40px;
+    margin-left: 10px;
+    background-color: #4EC5F7;
+}
+
+.hero-img {
+    height: auto;
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
 }
