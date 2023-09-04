@@ -118,3 +118,14 @@ body {
 .hero-img img {
     width: 100%;
 }
+
+/* Catagory Section Styles */
+.rebel-catagory{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.rebel-catagory div{
+    display: flex;
+    align-self: center;
+    
+}
