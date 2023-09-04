@@ -1,3 +1,60 @@
-/* Google Font Family */
-/* font-family: 'Work Sans', sans-serif; */
-/* <i class="fas fa-solid fa-play"> */
+/* Shared Styles */
+body {
+    margin: 0px 100px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-color {
+    color: #ff42a5;
+}
+
+/* Navbar Styles */
+.rebel-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title h2 {
+    padding-left: 20px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-title img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.nav-items ul {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.rebel-follow {
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 18px;
+}
+
+.rebel-follow i {
+    margin-left: 10;
+}
