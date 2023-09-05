@@ -395,9 +395,10 @@ body {
 /* Catagory Section Style*/
 .rebel-catagory {
     margin: 100px;
-    display: grid;
+    display: flex;
     gap: 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
