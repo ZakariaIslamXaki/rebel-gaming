@@ -350,8 +350,6 @@ h4 {
     align-items: center;
 }
 
-.row-2nd {}
-
 .rebel-1st-catagory {
     display: flex;
     justify-content: space-around;
@@ -464,15 +462,26 @@ h4 {
     .rebel-navbar {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .nav-title {
         display: flex;
         align-items: center;
+        width: 100%;
+        margin-right: 20px;
     }
 
-    .nav-items {
+    .nav-title h2 {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .nav-items ul {
+        align-items: center;
+        text-align: center;
         flex-direction: column;
+        row-gap: 20px;
     }
 
     .rebel-hero-section {
@@ -481,6 +490,7 @@ h4 {
 
     .hero-text {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .hero-img {
@@ -499,9 +509,19 @@ h4 {
         width: 100%;
     }
 
+    .gaming-text {
+        text-align: center;
+    }
+
     .rebel-online-header {
         width: 100%;
         text-align: center;
+    }
+
+    .rebel-online-header h1 {
+        font-size: 24px;
+        width: 100%;
+        row-gap: 20px;
     }
 
     .rebel-online-carts {
@@ -527,11 +547,23 @@ h4 {
 
     .rebel-play-games {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .rebel-play-games-title {
+        margin-left: 50px;
         width: 100%;
+    }
+
+    .rebel-play-games-title h1 {
         text-align: center;
+        font-size: 28px;
+    }
+
+    .rebel-play-games-title p {
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     .rebel-play-games-img {
@@ -542,7 +574,8 @@ h4 {
         flex-direction: column;
     }
 
-    .carrier-title {
+    .carrier-title h1{
+        text-align: left;
         width: 100%;
     }
 
@@ -550,14 +583,19 @@ h4 {
         width: 100%;
     }
 
-    .footer-title {
-        width: 100%;
-    }
-    .rebel-catagory{
+    .rebel-catagory {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
         margin-left: auto;
+        align-items: center;
+    }
+
+    .footer-title {
+        width: 100%;
+    }
+    .footer-title h2{
+        font-size: 32px;
     }
     .footer-submenu,
     .footer-links {
@@ -568,8 +606,12 @@ h4 {
     }
 
     .footer-terms {
+        margin: 20px 0;
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-pera{
+        text-align: center;
     }
 }
