@@ -451,3 +451,78 @@ h4 {
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Mobile Device Responsive Style */
+@media screen and (max-width:570px){
+    .rebel-navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-title{
+        display: flex;
+        align-items: center;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .rebel-hero-section{
+        flex-direction: column;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .rebel-gaming{
+        flex-direction: column;
+    }
+    .gaming-img{
+        width: 100%;
+    }
+    .gaming-text{
+        width: 100%;
+    }
+    .rebel-online-header{
+        width: 100%;
+        text-align: center;
+    }
+    .rebel-online-carts{
+        flex-direction: column;
+        width: 100%;
+    }
+    .rebel-online-cart:nth-child(1) {
+        width: 100%;
+    }
+    
+    .rebel-online-cart:nth-child(2) {
+        width: 100%;
+    }
+    
+    .rebel-online-cart:nth-child(3) {
+        width: 100%;
+    }
+    
+    .rebel-online-cart:nth-child(4) {
+        width: 100%;
+    }
+    .rebel-play-games{
+        flex-direction: column;
+    }
+    .rebel-play-games-title{
+        width: 100%;
+        text-align: center;
+    }
+    .rebel-play-games-img{
+        width: 100%;
+    }
+    .rebel-carrier{
+        flex-direction: column;
+    }
+    .carrier-title{
+        width: 100%;
+    }
+    .carrier-img{
+        width: 100%;
+    }
+}
