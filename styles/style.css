@@ -343,7 +343,14 @@ h4 {
 /* Catagory Section Style*/
 .rebel-catagory {
     margin: 100px;
+    display: grid;
+    gap: 20px;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
 }
+
+.row-2nd {}
 
 .rebel-1st-catagory {
     display: flex;
@@ -453,76 +460,116 @@ h4 {
 }
 
 /* Mobile Device Responsive Style */
-@media screen and (max-width:570px){
-    .rebel-navbar{
+@media screen and (max-width:570px) {
+    .rebel-navbar {
         flex-direction: column;
         align-items: center;
     }
-    .nav-title{
+
+    .nav-title {
         display: flex;
         align-items: center;
     }
-    .nav-items{
+
+    .nav-items {
         flex-direction: column;
     }
-    .rebel-hero-section{
+
+    .rebel-hero-section {
         flex-direction: column;
     }
-    .hero-text{
+
+    .hero-text {
         width: 100%;
     }
-    .hero-img{
+
+    .hero-img {
         width: 100%;
     }
-    .rebel-gaming{
+
+    .rebel-gaming {
         flex-direction: column;
     }
-    .gaming-img{
+
+    .gaming-img {
         width: 100%;
     }
-    .gaming-text{
+
+    .gaming-text {
         width: 100%;
     }
-    .rebel-online-header{
+
+    .rebel-online-header {
         width: 100%;
         text-align: center;
     }
-    .rebel-online-carts{
+
+    .rebel-online-carts {
         flex-direction: column;
         width: 100%;
     }
+
     .rebel-online-cart:nth-child(1) {
         width: 100%;
     }
-    
+
     .rebel-online-cart:nth-child(2) {
         width: 100%;
     }
-    
+
     .rebel-online-cart:nth-child(3) {
         width: 100%;
     }
-    
+
     .rebel-online-cart:nth-child(4) {
         width: 100%;
     }
-    .rebel-play-games{
+
+    .rebel-play-games {
         flex-direction: column;
     }
-    .rebel-play-games-title{
+
+    .rebel-play-games-title {
         width: 100%;
         text-align: center;
     }
-    .rebel-play-games-img{
+
+    .rebel-play-games-img {
         width: 100%;
     }
-    .rebel-carrier{
+
+    .rebel-carrier {
         flex-direction: column;
     }
-    .carrier-title{
+
+    .carrier-title {
         width: 100%;
     }
-    .carrier-img{
+
+    .carrier-img {
         width: 100%;
+    }
+
+    .footer-title {
+        width: 100%;
+    }
+    .rebel-catagory{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin-left: auto;
+    }
+    .footer-submenu,
+    .footer-links {
+        display: grid;
+        width: 100%;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-terms {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
