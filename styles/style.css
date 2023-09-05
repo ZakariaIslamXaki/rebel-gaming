@@ -1,7 +1,12 @@
 /* Shared Styles */
 body {
-    margin: 0px 100px;
+    margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    margin: 0 100px;
 }
 
 .primary-color {
@@ -242,6 +247,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .rebel-play-games-title {
@@ -274,4 +280,59 @@ h4 {
     position: relative;
     bottom: 250px;
     right: 75px;
+}
+/* Carrier Section Style */
+.rebel-carrier {
+    display: flex;
+    align-items: center;
+    background-color: #ff42a5;
+}
+
+.carrier-title {
+    width: 50%;
+    margin: 0 100px;
+}
+
+.carrier-title h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 0;
+    font-weight: 700;
+}
+
+.carrier-title p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.carrier-items {
+    display: flex;
+}
+
+.carrier-items p {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.carrier-destination {
+    text-align: right;
+    margin-left: 20px;
+}
+.carrier-title button{
+    padding: 21px 40px;
+    background-color: white;
+    color: #ff42a5;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.carrier-img {
+    margin: 0;
+    width: 50%;
+}
+
+.carrier-img img {
+    width: 100%;
 }
