@@ -341,23 +341,28 @@ h4 {
 }
 
 /* Catagory Section Style*/
-.rebel-catagory{
+.rebel-catagory {
     margin: 100px;
 }
+
 .rebel-1st-catagory {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
-.rebel-2nd-catagory{
+
+.rebel-2nd-catagory {
     display: flex;
     justify-content: space-around;
 }
+
 .catagory-btn {
     display: flex;
     align-items: center;
     padding: 1px 5px;
     border-radius: 50px;
+    border: none;
+    cursor: pointer;
 }
 
 .catagory-btn p {
@@ -365,4 +370,20 @@ h4 {
     padding-left: 10px;
     font-size: 12px;
     font-weight: 600;
+}
+
+.rebel-1st-catagory a {
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.catagory-btn:hover {
+    color: #ff42a5;
+    background-color: white;
+    border: 1px solid #ff42a5;
+}
+
+.catagory-btn p:hover {
+    color: #ff42a5;
 }
