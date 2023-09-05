@@ -281,6 +281,7 @@ h4 {
     bottom: 250px;
     right: 75px;
 }
+
 /* Carrier Section Style */
 .rebel-carrier {
     display: flex;
@@ -320,7 +321,8 @@ h4 {
     text-align: right;
     margin-left: 20px;
 }
-.carrier-title button{
+
+.carrier-title button {
     padding: 21px 40px;
     background-color: white;
     color: #ff42a5;
@@ -328,6 +330,7 @@ h4 {
     font-size: 16px;
     font-weight: 600;
 }
+
 .carrier-img {
     margin: 0;
     width: 50%;
@@ -335,4 +338,31 @@ h4 {
 
 .carrier-img img {
     width: 100%;
+}
+
+/* Catagory Section Style*/
+.rebel-catagory{
+    margin: 100px;
+}
+.rebel-1st-catagory {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.rebel-2nd-catagory{
+    display: flex;
+    justify-content: space-around;
+}
+.catagory-btn {
+    display: flex;
+    align-items: center;
+    padding: 1px 5px;
+    border-radius: 50px;
+}
+
+.catagory-btn p {
+    color: #0B0223;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
 }
