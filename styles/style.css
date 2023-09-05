@@ -372,12 +372,6 @@ h4 {
     font-weight: 600;
 }
 
-.rebel-1st-catagory a {
-    background-color: white;
-    text-decoration: none;
-    border-radius: 50px;
-}
-
 .catagory-btn:hover {
     color: #ff42a5;
     background-color: white;
@@ -386,4 +380,74 @@ h4 {
 
 .catagory-btn p:hover {
     color: #ff42a5;
+}
+
+/* Footer Section Style */
+.rebel-footer {
+    text-align: center;
+    background-color: #0B0223;
+    color: white;
+    padding: 100px;
+}
+
+.footer-title {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-title h2 {
+    padding-left: 10px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-title img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.footer-submenu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-submenu li {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-links {
+
+    margin: 30px 0;
+}
+
+.footer-links a {
+    padding-left: 10px;
+    color: white;
+
+}
+
+.footer-terms {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-terms li {
+    padding-left: 20px;
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-pera {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
 }
