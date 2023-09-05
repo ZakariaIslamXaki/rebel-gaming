@@ -670,3 +670,51 @@ body {
         text-align: center;
     }
 }
+
+/* Tablet Device Responsive Style */
+@media only screen and (min-width: 571px) and (max-width:991px) {
+    .nav-title {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .nav-title h2 {
+        font-size: 28px;
+    }
+
+    .nav-items {
+        width: 100%;
+    }
+
+    .nav-items ul {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-items li {
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    .rebel-online-carts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .rebel-play-games-title h1, p{
+        text-align: center;
+    }
+    .rebel-carrier{
+        padding-bottom: 10px;
+    }
+    .rebel-catagory{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
