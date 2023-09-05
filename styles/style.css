@@ -207,9 +207,12 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
-.rebel-online-cart i, h4{
+
+.rebel-online-cart i,
+h4 {
     display: none;
 }
+
 .rebel-online-cart:nth-child(1) {
     width: 100%;
 }
@@ -232,5 +235,43 @@ body {
 .rebel-online-carts img {
     width: 100%;
     height: 400px;
-    ;
+}
+
+/* Play Games Styles */
+.rebel-play-games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rebel-play-games-title {
+    width: 50%;
+    margin-right: 120px;
+    text-align: right;
+}
+
+.rebel-play-games-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0B0223;
+}
+
+.rebel-play-games-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.rebel-play-games-img {
+    width: 50%;
+    height: 500px;
+}
+
+.games-image-1 {
+    width: 100%;
+}
+
+.games-image-2 {
+    position: relative;
+    bottom: 250px;
+    right: 75px;
 }
